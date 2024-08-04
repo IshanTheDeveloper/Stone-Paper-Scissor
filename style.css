@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 3px 3px 5px rgb(128, 128, 128, 0.5);
+}
+
+#main-heading {
+  background-color: white;
+  font-size: 5vw;
+  width: 90%;
+  text-align: center;
+}
+
+#images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#images img {
+  max-width: 100%;
+}
+#img1 {
+  height: 3rem;
+}
+#img2 {
+  height: 3.3rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 70vw;
+}
+.container-area {
+  display: flex;
+  justify-content: center;
+}
+#rock,
+#paper,
+#scissor {
+  width: 15vw;
+}
+
+.score-board {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 2vw;
+}
+.score {
+  margin: 2rem;
+}
+#reset {
+  color: white;
+  background-color: black;
+  font-size: 3vw;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 12vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reset-container {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#result-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  width: 100vw;
+  font-size: 3vw;
+  color: red;
+}
